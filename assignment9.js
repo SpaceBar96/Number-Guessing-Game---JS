@@ -6,7 +6,7 @@ let numberInMind = Math.floor(Math.random() * 100) + 1;
 // This variable is used to determine if the app should continue prompting the user for input
 let foundCorrectNumber = false;
 
-const name = prompt('Please enter your name ');
+const name = prompt('Please enter your name : ');
 console.log(`\nHey there ${name}, welcome to Number Guessing Game!`);
  
 while (!foundCorrectNumber) {
